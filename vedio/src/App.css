@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.video-container {
+  position: relative;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.play-pause-button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.play-pause-button:hover {
+  background-color: #444;
+}
